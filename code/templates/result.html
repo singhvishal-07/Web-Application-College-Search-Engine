@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='result.css')}}">
+
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+          <nav>
+          <div class="logo">
+           <a href="home.html" title="logo"></a>
+            </div>
+               <ul>
+                <li><a href="/home">Home</a></li>
+                <li>
+                    <a href="#">Find Colleges in</a>
+                    <ul class="subMenu">
+                        <li><a href="#">Mumbai</a></li>
+                        <li><a href="#">Pune</a></li>
+                        <li><a href="#">Bangalore</a></li>
+                    </ul>
+                </li>
+                   <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Login/Signup</a></li>
+            </ul>
+            </nav> 
+        </div>
+        <div class=page>
+  {% for table in tables %}
+    {{ table|safe }} <!--safe tells jinja2 to show this parameter as a html object.-->
+  {% endfor %}
+    </div>
+    </div>
+</body>
+</html>

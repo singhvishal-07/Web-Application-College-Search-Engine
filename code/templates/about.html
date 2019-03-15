@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='about.css')}}">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+          <nav>
+          <div class="logo">
+           <a href="/home" title="logo"></a>
+            </div>
+               <ul>
+                <li><a href="/home">Home</a></li>
+                <li>
+                    <a href="#">Find Colleges in</a>
+                    <ul class="subMenu">
+                        <li><a href="/showmumbai">Mumbai</a></li>
+                        <li><a href="/shownavimumbai">Navi Mumbai</a></li>
+                        <li><a href="/showothers">Others</a></li>
+                    </ul>
+                </li>
+                <li><a href="/about"/>About Us</li>
+                <li><a href="/login">Login/Signup</a></li>
+            </ul>
+            </nav> 
+        </div>
+        <div class="AboutUsPic"></div>
+        <div class="Page2">
+            <p>PCE EDU-ASSIST provides an excellent platform for the students, parents, and education industry players who are seeking information on higher education sector in India. Students can use our portal as one stop destination to search about their dream college, available courses etc. For any queries you can write to us on <strong><a href="mailto:pbl.groupvi@gmail.com">pbl.groupvi@gmail.com</a></strong> or call us on 0987654321</p>
+        </div>
+    </div>
+</body>
+</html>

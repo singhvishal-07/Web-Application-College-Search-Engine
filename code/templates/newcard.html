@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Card</title>
+    <link rel="stylesheet" href="newcard.css">
+</head>
+<body>
+   <div class="container">
+           <div class="navbar">
+          <nav>
+          <div class="logo">
+           <a href="home.html" title="logo"></a>
+            </div>
+               <ul>
+                <li><a href="home.html">Home</a></li>
+                <li>
+                    <a href="#">Find Colleges in</a>
+                    <ul class="subMenu">
+                        <li><a href="#">Mumbai</a></li>
+                        <li><a href="#">Pune</a></li>
+                        <li><a href="#">Bangalore</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html"/>About Us</li>
+                <li><a href="#">Login/Signup</a></li>
+            </ul>
+            </nav> 
+        </div>
+    {%for x in l%}
+    <div class="card">
+        <!--<div class="photo">
+            <img src="static/imgs/showmumbai{{x[0]}}.jpg">
+        </div>
+        <!--<div class="details">
+            <h3>{{x[1]}}</h3>
+            <div class="location">
+                <p>{{x[2]}}</p>
+            </div>
+            <div class="info">
+                <p>{{x[11]}}</p>
+                <a href="#"><b><mark>Click here to know more</mark></b></a>
+            </div>
+        </div>-->
+    </div>
+    {%endfor%}
+    </div>
+</body>
+</html>

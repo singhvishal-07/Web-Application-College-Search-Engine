@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='home.css')}}">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+          <nav>
+          <div class="logo">
+           <a href="#" title="logo"></a>
+            </div>
+               <ul>
+                <li><a href="/home">Home</a></li>
+                <li>
+                    <a href="#">Find Colleges in</a>
+                    <ul class="subMenu">
+                        <li><a href="/showmumbai">Mumbai</a></li>
+                        <li><a href="/shownavimumbai">Navi Mumbai</a></li>
+                        <li><a href="/showothers">Others</a></li>
+                    </ul>
+                </li>
+                   <li><a href="/about">About Us</a></li>
+                <li><a href="/login">Login/Signup</a></li>
+            </ul>
+            </nav> 
+        </div>
+        <div class="mainPagePic">
+        </div>
+        <div class="Page2">
+        <h1>Select an University:</h1>
+        <div class="Profile-card">
+          <div class="top">
+               <div id="rectangle"></div>
+            <img src="{{url_for('static', filename='imgs/mumbaiuni.jpg')}}" alt="Mumbai University">
+          </div>
+        <div class="content">
+          <h2>Mumbai University</h2>
+          <h3>Established : 1857</h3>
+          <p><strong>Moto:</strong>"The Fruit of Learning is Good Character and Righteous Conduct"</p>
+        </div>
+        <div class="footer">
+          <p>Ranked 19th in India</p>
+        </div>
+        </div>
+        <div class="Profile-card1">
+          <div class="top">
+               <div id="rectangle"></div>
+            <img src="{{url_for('static', filename='imgs/puneuni.jpg')}}" alt="Pune University">
+          </div>
+        <div class="content">
+          <h2>Pune University</h2>
+          <h3>Established : 1949</h3>
+          <p><strong>Moto:</strong>"Where Actions Prove Knowledge"</p>
+        </div>
+        <div class="footer">
+          <p>Ranked 10th in India</p>
+        </div>
+        </div>
+        <div class="Profile-card2">
+          <div class="top">
+               <div id="rectangle"></div>
+            <img src="{{url_for('static', filename='imgs/vtu.jpg')}}" alt="VTU">
+          </div>
+        <div class="content">
+          <h2>Visvesvaraya Technological University</h2>
+          <h3>Established : 1989</h3>
+          <p><strong>Moto:</strong>"Above all, be human."</p>
+        </div>
+        <div class="footer">
+          <p>Ranked 23rd in India</p>
+        </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

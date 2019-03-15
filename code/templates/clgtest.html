@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='clg.css')}}">
+</head>
+<body>
+<div class="container">
+  <div class="navbar">
+          <nav>
+          <div class="logo">
+           <a href="/home" title="logo"></a>
+            </div>
+               <ul>
+                <li><a href="/home">Home</a></li>
+                <li>
+                    <a href="#">Find Colleges in</a>
+                    <ul class="subMenu">
+                        <li><a href="/showmumbai">Mumbai</a></li>
+                        <li><a href="/shownavimumbai">Navi Mumbai</a></li>
+                        <li><a href="/showothers">Others</a></li>
+                    </ul>
+                </li>
+                <li><a href="/about"/>About Us</li>
+                <li><a href="/login">Login/Signup</a></li>
+            </ul>
+            </nav> 
+        </div>
+        <div class="collegeimg">
+        <img src="static/imgs/{{imgg}}.jpg" height="380" width="1350"/>
+        </div>
+    <div class="about">
+        <p>{{about}}</p>
+    </div>
+   <div class="info">
+       <div class="cname">
+           <img src="static/imgs/cname.png">
+            <h2 class="collegename">College : {{name}}</h2>
+        </div>
+        <div class="location">
+            <img src="static/imgs/location.png">
+            <h2 class="loc">Location : {{location}}</h2>
+        </div>
+        <div class="own">
+            <img src="static/imgs/ownership.png">
+            <h2 class="owner">Ownership : {{own}}</h2>
+            </div>
+        <div class="approved">
+            <img src="static/imgs/approved.png">
+            <h2 class="approved_by">Approved : {{app}}</h2>
+            </div>
+        <div class="exam_accepted">
+        <img src="static/imgs/exam_accepted.png">
+        <h2 class="examAccepted">Exam Accepted: {{exam}}</h2>
+       </div>
+       <div class="fees">
+           <img src="static/imgs/fees.png">
+           <h2 class="total_fees">Total Fees: {{fees}}</h2>
+       </div>
+       <div class="courses">
+           <img src="static/imgs/courses.png">
+            <h2 class="courseOffered">Courses: {{courses}}</h2>
+       </div>
+       <div class="intake">
+           <img src="static/imgs/intake.png">
+           <h2 class="intake_clg">Intake: {{intake}}</h2>
+       </div>
+       <div class="cutOff">
+           <img src="static/imgs/cutOff.png">
+           <h2 class="cutOff_clg">CutOff: {{cutOff}}</h2>
+       </div>
+       <div class="placement">
+           <img src="static/imgs/placement.png">
+           <h2 class="placement_clg">Placement: {{placement}}</h2>
+       </div>
+    </div>
+</div>
+</body>
+</html>
