@@ -1,0 +1,142 @@
+body{
+    margin: 0 auto;
+}
+.container {
+    opacity:
+    width: 1600px;
+    height: 70px;
+    background-color: #0f1c2f;
+}
+.navbar ul{
+    text-align: center;
+    margin: 0 auto;
+    font-family:sans-serif;
+    font-weight:lighter;
+    
+}
+.navbar ul li{
+    float: right;
+    line-height: 60px;
+    background-color: #0f1c2f;
+    list-style-type: none;
+    /*display: inline-block*/
+    padding: 5px 20px; /*top bottom 5 left right 25*/
+    position: relative;
+    width: 120px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li:hover{
+    background-color: #ff5063;
+}
+ul.subMenu{
+    position:relative;
+    display: none;
+    width: 140px;
+    padding-left: 0px;
+    z-index: 100; /*This was written to solve the problem of submenu coming behind the main picture*/
+}
+.navbar li:hover .subMenu{
+    display: block;
+}
+.logo{
+    display: block;
+    background: url(imgs/logo.png);
+    width: 200px;
+    height: 55px;
+    float: left;
+    margin: 5px;
+}
+.mainPagePic{
+    position: relative;
+    top:100%;
+    width: 1349px;
+    height: 593px;
+    background: url(imgs/home.jpg);
+}
+.Page2{
+    margin: 0 px;
+    position: relative;
+    top: 100%;
+    width: 1349px;
+    height: 592px;
+    background-color: #0f1c2f;
+}
+.Page2 h1{
+    padding-left: 10px;
+    position: relative;
+    top: 6%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin: 0px;
+    color: #ff5063;
+}
+.Profile-card{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background: white;
+    width: 300px;
+    font-family: sans-serif;
+    color:#122748;
+}
+.Profile-card:hover{
+    box-shadow: 1px 2px 23px 8px;
+}
+.Profile-card1{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background: white;
+    width: 300px;
+    font-family: sans-serif;
+    color:#122748;
+}
+.Profile-card1:hover{
+    box-shadow: 1px 2px 23px 8px;
+}
+.Profile-card2{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    background: white;
+    width: 300px;
+    font-family: sans-serif;
+    color:#122748;
+}
+.Profile-card2:hover{
+    box-shadow: 1px 2px 23px 8px;
+}
+.top{
+  width: 100%;
+  height: 200px;
+  position:relative;
+}
+.top img{
+  width: 100%;
+  height: 200px;
+}
+.content{
+  padding: 0 10px;
+  text-align: center;
+  padding: 10px;
+}
+.content h2{
+    font-size: 20px;
+  margin: 0 0 8px 0px;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    position: relative;
+    background: #ff5063;
+    color: white;
+}
+.footer p{
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 26px;
+}

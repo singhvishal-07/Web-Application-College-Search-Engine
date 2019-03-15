@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0f1c2f;
+}
+.container {
+    position: relative;
+    opacity:
+    width: 1800px;
+    height: 70px;
+    background-color: #0f1c2f;
+}
+h2{
+    font-family: sans-serif;
+}
+.logo{
+    display: block;
+    background: url(/static/imgs/logo.png);
+    width: 200px;
+    height: 55px;
+    float: left;
+    margin: 5px;
+}
+.navbar ul{
+    text-align: center;
+    margin: 0 auto;
+    font-family:sans-serif;
+    font-weight:lighter;   
+}
+.navbar ul li{
+    float: right;
+    line-height: 60px;
+    background-color: #0f1c2f;
+    list-style-type: none;
+    /*display: inline-block*/
+    padding:5px 20px; /*top bottom 5 left right 25*/
+    position: relative;
+    width: 120px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li:hover{
+    background-color: #ff5063;
+}
+ul .subMenu{
+    position:absolute;
+    width: 140px;
+    padding-left: 0px;
+    display: none;
+    z-index: 100;
+}
+.navbar li:hover .subMenu{
+    display: block;
+}
+/*end of navbar*/
+.collegeimg{
+    position: relative;
+    top: 0px;
+    width: 700px;
+    height: 380px;
+}
+.about p{
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 470px;
+    left: 2%;
+}
+.info{
+    margin: 0;
+    padding: 0;
+}
+.info .cname{
+    margin: 5px;
+    padding: 5px;
+    position: absolute;
+    top: 520px;
+    left: 35%;
+}
+.info .cname .collegename{
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.info .own{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 720px;
+    left: 20%;
+}
+.info .own .owner{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.info .location{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 630px;
+    left: 20%;
+}
+.info .location .loc{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.info .approved{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 630px;
+    left: 60%;
+}
+.info .approved .approved_by{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.info .exam_accepted{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 730px;
+    left: 60%;
+}
+.info .exam_accepted .examAccepted{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.info .fees{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 800px;
+    left: 45%;
+}
+.info .fees .total_fees{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.info .courses{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 900px;;
+    left: 20%;
+}
+.info .courses .courseOffered{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.info .intake{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 1050px;;
+    left: 20%;
+}
+.info .intake .intake_clg{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.info .cutOff{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 1200px;;
+    left: 20%;
+}
+.info .cutOff .cutOff_clg{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.info .placement{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 1350px;;
+    left: 20%;
+}
+.info .placement .placement_clg{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: whitesmoke;
+}
